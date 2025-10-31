@@ -53,3 +53,9 @@ Amazon Web Services uses a **Shared Responsibility Model** for cloud security:
 - Maintaining the physical infrastructure, servers, and data centers  
 - Ensuring network security and availability  
 - Providing durability and redundancy for data stored in S3  
+
+**Customer Responsibilities:**
+- Managing object-level permissions and bucket policies  
+- Configuring encryption (at rest and in transit)  
+- Managing versioning, replication, and lifecycle rules  
+- Ensuring compliance with organizational or regulatory requirements
