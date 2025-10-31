@@ -1,11 +1,12 @@
-## Storage Classes
+## Storage Classes Comparison
 
-Amazon S3 offers multiple storage classes, each designed for specific use cases:
+---Amazon S3 offers multiple storage classes, each designed for specific use cases:
 
-| Storage Class | Purpose |
-| **Standard** | Frequently accessed data, high availability, low latency |
-| **Standard-IA (Infrequent Access)** | Data accessed occasionally, lower cost, retrieval fees apply |
-| **Glacier** | Long-term archival, very low cost, retrieval takes minutes or hours |
+**S3 Standard: Best for data that is accessed frequently. High availability and low latency, but higher cost.**
+
+**S3 Standard-IA (Infrequent Access): Ideal for data that is accessed occasionally. Cheaper storage, but retrieval costs apply.**
+
+**S3 Glacier: Used for long-term backups or archives. Very low cost, but retrieval can take minutes or hours.**
 
 ---
 
